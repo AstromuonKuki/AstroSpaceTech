@@ -1,0 +1,41 @@
+.scroll {
+	/* height: 500px;
+	width: 500px; */
+	margin-bottom: -50px; 
+	/* maximum width of scrollbar */
+	padding-bottom: 50px; 
+	/* maximum width of scrollbar */
+	margin-right: -50px; 
+	/* maximum width of scrollbar */
+	padding-right: 50px; 
+	/* maximum width of scrollbar */
+	overflow: hidden;
+}
+
+.scrollContainer {
+	/* height: 500px;
+	width: 500px; */
+	margin-bottom: -50px; /* maximum width of scrollbar */
+	padding-bottom: 50px; /* maximum width of scrollbar */
+	margin-right: -50px; /* maximum width of scrollbar */
+	padding-right: 50px; /* maximum width of scrollbar */
+	overflow: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 45px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 10px 10px 10px grey; 
+  border-radius: 25px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: pink; 
+  border-radius: 25px;
+  border: solid 10px brown;
+}
